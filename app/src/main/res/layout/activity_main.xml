@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.azexotic.rescue.azebr.MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background2">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#20ffffff">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="2724 N Scottsdale Rd \nScottsdale, AZ 85257 \n       480-535-4999"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/directions_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="directions to store"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:padding="15dp"
+            android:onClick="getDirections"
+            android:backgroundTint="@color/colorAccent"
+            />
+
+        <Button
+            android:id="@+id/call_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="call us"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:onClick="makeCall"
+            android:layout_toRightOf="@+id/directions_button"
+            android:backgroundTint="@color/colorAccent"
+            />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/birds_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="spotlight bird"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorAccent"
+        android:padding="25dp"
+        android:onClick="getBirds"
+        />
+
+    <Button
+        android:id="@+id/events_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:text="events"
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorAccent"
+        android:padding="25dp"
+        android:onClick="getEvents"
+        />
+
+    <Button
+        android:id="@+id/services_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="grooming/boarding"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorAccent"
+        android:padding="25dp"
+        android:onClick="getServices"
+        />
+
+    <Button
+        android:id="@+id/education_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="parrot education"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorAccent"
+        android:padding="25dp"
+        android:onClick="getEducation"
+        />
+
+</LinearLayout>

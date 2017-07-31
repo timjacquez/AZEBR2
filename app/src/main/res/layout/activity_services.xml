@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.azexotic.rescue.azebr.ServicesActivity"
+    android:background="@drawable/background2"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:background="#60000000"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:text="We offer full service grooming and boarding for your feathered friends. "
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Grooming"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:paddingTop="5dp"
+            android:text="-Beak Trimming\n-Nail Trimming\n-Wing Clipping\n\nDonation Based "
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="boarding"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:paddingTop="5dp"
+            android:text="-Short-term stays: $10 per day\n-Long term stays: $150 per month"
+            />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Schedule Grooming/boarding"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:padding="30dp"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="getSchedule"/>
+
+</RelativeLayout>
