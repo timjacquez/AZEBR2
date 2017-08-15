@@ -9,13 +9,17 @@
 
     android:background="@drawable/background2">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:paddingLeft="5dp"
         android:background="#60000000">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -40,7 +44,7 @@
             android:layout_height="wrap_content"
             android:textSize="15sp"
             android:textColor="#ffffff"
-            android:text="We recommend a base diet of pellets for most parrots. Seed-based diets used to be the norm, but research has shown that seed is very high in fats and carbohydrates, which cause fatty liver disease in parrots when eaten in excess. Pelleted diets are specially formulated to give your bird the nutrients they need. Fresh fruit and vegetables are a wonderful addition to your bird's diet, and can be given daily along their pellets. We keep in stock a full range of veterinarian approved pellets to keep your birds happy and healthy. "
+            android:text="We recommend a base diet of pellets for most parrots. Seed-based diets used to be the norm, but research has shown that seed is very high in fats and carbohydrates, which cause fatty liver disease in parrots when eaten in excess. Pelleted diets are specially formulated to give your bird the nutrients they need. Fresh fruit and vegetables are a wonderful addition to your bird's diet, and can be given daily along with their pellets. We keep in stock a full range of veterinarian approved pellets to keep your birds happy and healthy. "
             />
 
         <TextView
@@ -61,5 +65,7 @@
             android:text="Parrots are exceptionally intelligent, and with that intelligence comes the tendency to get bored. Boredom can lead to many bad behaviors, including screaming and plucking. To keep your feathered friends happy and sufficiently stimulated, we recommend an assortment of toys for them to interact with. Foraging toys, or toys that treats can be hidden in, are an excellent way for your parrot to simulate what they would do naturally in the wild. Other types of toys include preening toys, shredding toys, and chewing toys. Providing these not only contributes to the physical and mental wellbeing of your parrot, but they give your bird an outlet for their destructive side (a toy is cheaper than a couch). "
             />
 
-    </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
 </LinearLayout>

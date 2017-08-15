@@ -11,6 +11,7 @@ import android.view.View;
 public class MainActivity extends AppCompatActivity {
 
     private String directions = "https://www.google.com/maps/dir/?api=1&destination=AZ+Exotic+Bird+Rescue+Scottsdale+AZ";
+    private String donations = "https://www.paypal.com/us/cgi-bin/webscr?cmd=_donations&business=info@azebr.org&lc=US&no_note=0&currency_code=USD&bn=PP-DonationsBF%3Abtn_donateCC_LG.gif%3ANonHostedGuest&submit.x=76&submit.y=8#";
     private String phoneNumber = "tel:4805354999";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,9 +41,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //Opens events activity
-    public void getEvents(View view){
-        Intent eventIntent = new Intent(this, EventsActivity.class);
-        startActivity(eventIntent);
+    public void getDonation(View view){
+        Intent donationIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(donations));
+        startActivity(donationIntent);
     }
 
     //Opens services activity

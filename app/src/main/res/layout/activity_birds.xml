@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="PATCHES"
+            android:text="IBON"
             android:textColor="#ffffff"
             android:textSize="45sp"
             android:textStyle="bold" />
@@ -29,12 +29,12 @@
             android:layout_height="200dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="10dp"
-            android:src="@drawable/patches" />
+            android:src="@drawable/ibon" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Our spotlight bird is Patches! Patches is a Goffin's Cockatoo. He has a very playful spirit and loves to be interacted with. He's a little shy, but once he opens up to you, he's truly a character full of personality. Come down to the rescue and meet Patches today!"
+            android:text="Our spotlight bird is Ibon! Ibon is a Nanday Conure. He can be a little scared of hands, but he loves to be on your shoulder and sing you the song of his people. Anyone who has had a conure can tell you how amazing these little guys are. Come down to the rescue and meet Ibon today!"
             android:textColor="#ffffff"
             android:textSize="17sp" />
 

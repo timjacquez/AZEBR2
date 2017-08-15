@@ -93,16 +93,16 @@
         />
 
     <Button
-        android:id="@+id/events_button"
+        android:id="@+id/donate_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#ffffff"
         android:textSize="18dp"
-        android:text="events"
+        android:text="donate"
         android:textStyle="bold"
         android:backgroundTint="@color/colorAccent"
         android:padding="25dp"
-        android:onClick="getEvents"
+        android:onClick="getDonation"
         />
 
     <Button
