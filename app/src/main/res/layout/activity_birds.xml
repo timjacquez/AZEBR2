@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="IBON"
+            android:text="Junior"
             android:textColor="#ffffff"
             android:textSize="45sp"
             android:textStyle="bold" />
@@ -29,12 +29,12 @@
             android:layout_height="200dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="10dp"
-            android:src="@drawable/ibon" />
+            android:src="@drawable/junior" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Our spotlight bird is Ibon! Ibon is a Nanday Conure. He can be a little scared of hands, but he loves to be on your shoulder and sing you the song of his people. Anyone who has had a conure can tell you how amazing these little guys are. Come down to the rescue and meet Ibon today!"
+            android:text="Our spotlight bird is Junior! Junior is a Severe Macaw. Anyone who has had a Severe can tell you that having one is life changing. They are truly amazing companions. Come down to the rescue and meet Junior today! He has so much to tell you!"
             android:textColor="#ffffff"
             android:textSize="17sp" />
 

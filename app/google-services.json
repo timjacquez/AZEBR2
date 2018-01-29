@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "856713854593",
+    "firebase_url": "https://fir-azebr.firebaseio.com",
+    "project_id": "firebase-azebr",
+    "storage_bucket": "firebase-azebr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856713854593:android:71559333484f7273",
+        "android_client_info": {
+          "package_name": "com.azexotic.rescue.azebr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856713854593-p3t91vk0lhmk6g5h4fiq6rai8kref31e.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "856713854593-orv0clqs7o08dev385ec15h3r4ilfacu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtf0iXeIu0MKRPU2qLhEcySkJCC_SDNjE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -119,16 +119,16 @@
         />
 
     <Button
-        android:id="@+id/education_button"
+        android:id="@+id/events_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="parrot education"
+        android:text="Events"
         android:textColor="#ffffff"
         android:textSize="18dp"
         android:textStyle="bold"
         android:backgroundTint="@color/colorAccent"
         android:padding="25dp"
-        android:onClick="getEducation"
+        android:onClick="getEvents"
         />
 
 </LinearLayout>
